@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="NumberOne" Guid="{689AEA51-5B65-43B2-A907-B7B8DCFE1F1A}" Version="1.5.0.0" xmlns="http://www.nxtcontrol.com/IEC61499.xsd">
+  <Archive>
+    <ExcludeDir>
+      <string>Exports</string>
+      <string>Imports</string>
+      <string>Documentation</string>
+      <string>TestReports</string>
+    </ExcludeDir>
+  </Archive>
+  <References />
+  <CanvasResolution StartCanvasClass="" Width="-1" Height="-1" WorkAreaWidth="-1" WorkAreaHeight="-1" Template="" Login="true" NavigationControl="0" CurrentUser="true" LanguageButton="true" RuntimeConnection="true" Logger="false" NavigationBar="true" NewVersionDeployed="true" Exit="false" ShowWarningMessage="false" WarningText="" SiblingButtonCount="5" ChildButtonCount="5" IsCanvasTopologyPanel="true" ResizeBehaviour="None">
+    <Topology Name="Default" />
+  </CanvasResolution>
+  <Graphics Name="Graphics" />
+  <WebGraphics Name="WebGraphics" />
+  <Security Level="Internal" IsActive="true">
+    <Info>﻿&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;UserManager xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" HighestID="5"&gt;&lt;UserInfos Name="Team" Password="$1$3449BB120BE15ABB75AC542F893A90377FF677289AB857629B11DAE8E620CB27$D7841FB09F7B06C08D84FFE0F127A011EECD8D7E55212210C4D1FFE3C07E3D61" SecurityToken="127" ID="1" MeetsCalLaw="true" /&gt;&lt;UserInfos Name="Joscha" Password="$1$770319E859A7650ED2B4C6CA0FC7209CEDBD61EC3CC1A16C6936F6F17E8EC1C9$7A4103E549D4944042AC80420CDB473952C137ACE8784B8F952D6E8A68835D23" SecurityToken="1" ID="2" MeetsCalLaw="true" /&gt;&lt;UserInfos Name="Arnali" Password="$1$A9CCA5D05797C56BC37A9C009C9AE126C590344DC84E2393461BFBF7372064A8$B025DC2383A972A6F39084CFDB33FD083FE3193801AE8CB629E653E17DA59460" SecurityToken="1" ID="3" MeetsCalLaw="true" /&gt;&lt;UserInfos Name="David" Password="$1$F376357F5196B9E1137FCD077B443C3F875CC69E6AD0ABD402F38810A5E9447A$62B65FE4D5EC096DC781C938CFD857E1F154C06F31B689C944854E131AE15006" SecurityToken="3" ID="4" MeetsCalLaw="true" /&gt;&lt;/UserManager&gt;</Info>
+  </Security>
+  <PluginGUIDs />
+  <ConnectableAdapterList>
+    <ConnectableAdapters>
+      <CompatibleType Type="IHwSlaveConfig" Namespace="SE.FieldDevice" />
+      <CompatibleType Type="IHwSlaveConfig" Namespace="Standard.IoModbus" />
+    </ConnectableAdapters>
+  </ConnectableAdapterList>
+</ProjectDatabase>
